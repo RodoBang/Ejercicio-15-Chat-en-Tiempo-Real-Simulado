@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input, button {
+    color: black;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.contenedor {
+    max-width: 400px;
+    height: 100vh;
+    max-height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #8b0f0f;
+}
+
+.contacto h3 {
+    margin-left: 15px;
+}
+
+.perfil {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: aliceblue;
+
+}
+
+#chat {
+    background-color: rgb(103, 103, 103);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.msj {
+    width: auto;
+    padding: 9px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.usr {
+    align-self: flex-end;
+    background-color: #8b0f0f;
+    margin: 10px;
+}
+
+.cht {
+    align-self: flex-start;
+    background-color: #aaaaaa;
+    margin: 10px;
+    color: black;
+}
+
+.input-msj {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8b0f0f;
+}
+
+#enviar {
+    height: 40px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #7c7c7c;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input {
+    font-size: large;
+    margin: 0 10px;
+    border-radius: 15px;
+    height: 40px;
+    flex: 1;
+}
